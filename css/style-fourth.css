@@ -1,0 +1,299 @@
+/*********** CONTACT ***********/
+
+.contact {
+  max-width: 100%;
+}
+
+.contact__container {
+  max-width: 1600px;
+  width: 100%;
+  min-height: 109px;
+  margin: 0 auto;
+  margin-bottom: 9px;
+}
+
+.contact__box {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.contact__place {
+  width: 335px;
+  max-width: 335px;
+  margin-right: 40px;
+}
+
+.contact__address {
+  margin: 0 0 3px 0;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.contact__house {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.contact__name {
+  position: relative;
+  top: 9px;
+  display: flex;
+  align-items: end;
+}
+
+.contact__label {
+  position: relative;
+}
+
+.contact__input,
+.contact__input1 {
+  position: relative;
+  width: 270px;
+  max-width: 270px;
+  min-height: 50px;
+  margin: 0px 20px 17px 0px;
+  padding-left: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  border-radius: 100px;
+  border: 1px solid #333333;
+  color: #999999;
+  transition: background-color 0.6s ease-in;
+}
+
+.contact__change {
+  color: #333333;
+  background-color: transparent;
+}
+
+.contact__btn {
+  width: 330px;
+  max-width: 330px;
+  max-height: 50px;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 100px;
+  border: 2px solid #9D5CD0;
+  cursor: pointer;
+  background-color: transparent;
+  color: #9D5CD0;
+  box-sizing: border-box;
+  transition: color 0.6s ease-in, background-color 0.6s ease-in;
+}
+
+.contact__btn320 {
+  width: 128px;
+  min-height: 40px;
+  margin: 20px 0 0 0px;
+  padding: 0;
+  display: none;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+  border-radius: 100px;
+  border: 2px solid #9D5CD0;
+  cursor: pointer;
+  background-color: transparent;
+  color: #9D5CD0;
+  box-sizing: border-box;
+  transition: color 0.6s ease-in, background-color 0.6s ease-in;
+}
+
+.contact__btn:focus,
+.contact__btn:hover,
+.contact__btn320:focus,
+.contact__btn320:hover {
+  outline: 0;
+  outline-offset: 0;
+  color: #ffffff;
+  background-color: #9D5CD0;
+}
+
+.contact__btn:active,
+.contact__btn320:active {
+  color: #ffffff;
+  background-color: #7943A4;
+  border: 3px solid #91A9F0;
+}
+
+.contact__case {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.contact__label {
+  position: relative;
+}
+
+.just-validate-error-label {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  position: absolute;
+  top: -15px;
+  left: 30px;
+}
+
+.contact__input:focus,
+.contact__input1:focus,
+.contact__input:hover,
+.contact__input1:hover {
+  outline: 0;
+  outline-offset: 0;
+  background-color: #EAEAEA;
+  cursor: pointer;
+}
+
+.contact__clickbox {
+  width: 400px;
+  padding: 0;
+  margin: 0px;
+}
+
+.contact__click {
+  position: relative;
+  top: 0px;
+  left: 78px;
+  max-width: 277px;
+  min-height: 32px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  flex-grow: 1;
+}
+
+.contact__messager {
+  position: relative;
+  top: 5px;
+  left: 73px;
+  max-width: 200px;
+  display: flex;
+}
+
+.contact__whatsapp,
+.contact__telegram {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.6s ease-in;
+}
+
+.contact__but {
+  background-color: transparent;
+  border: none;
+  outline: 0;
+}
+
+.contact__whatsapp {
+  margin-right: 9px;
+}
+
+.contact__whatsapp:focus,
+.contact__telegram:focus {
+  opacity: 0.5;
+  outline: 0;
+}
+
+.contact__whatsapp:hover,
+.contact__telegram:hover {
+  opacity: 0.5;
+}
+
+.contact__whatsapp:active,
+.contact__telegram:active {
+  opacity: 1;
+}
+
+/*  YANDEX MAP  */
+
+.contact__map {
+  max-width: 1920px;
+  min-height: 700px;
+}
+
+[class*="ground-pane"] {
+  filter: grayscale(1);
+}
+
+/* ********************** FOOTER **************************** */
+
+.footer {
+  width: 100%;
+  background-color: #000000;
+}
+
+.footer__container {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__logo {
+  padding: 50px 0 50px 0;
+}
+
+.footer__logo320 {
+  display: none;
+}
+
+.footer__vk {
+  margin-right: 16px;
+}
+
+.footer__fb {
+  width: 45px;
+  height: 45px;
+  flex-shrink: 0;
+}
+
+.footer__instagram {
+  margin-right: 16px;
+}
+
+.footer__vk path,
+.footer__instagram path,
+.footer__fb path {
+  transition: fill 0.6s ease-in-out;
+}
+
+.footer__vk:focus path,
+.footer__instagram:focus path,
+.footer__fb:focus path {
+  fill: #ffffff;
+  outline: 0;
+  border-color: #333333;
+}
+
+.footer__vk:focus,
+.footer__instagram:focus,
+.footer__fb:focus {
+  outline: 0;
+}
+
+.footer__vk:hover path,
+.footer__instagram:hover path,
+.footer__fb:hover path {
+  fill: #ffffff;
+  cursor: pointer;
+}
+
+.footer__vk:active path,
+.footer__instagram:active path,
+.footer__fb:active path {
+  fill: #9D5CD0;
+  cursor: pointer;
+}

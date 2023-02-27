@@ -1,0 +1,5 @@
+                                    <svg class="catalog-item__svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M49 25C49 38.2548 38.2548 49 25 49C11.7452 49 1 38.2548 1 25C1 11.7452 11.7452 1 25 1C38.2548 1 49 11.7452 49 25Z" fill="#ECECEC" stroke="#ECECEC" stroke-width="2"/>
+                                    <path d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                                    </svg>
+

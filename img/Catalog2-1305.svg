@@ -1,0 +1,14 @@
+
+                                    <svg class="catalog-item__svg" width="50" height="50" xml:space="preserve">
+                                    <g transform="matrix(0.95 0.02 0.02 0.97 0 0)"  >
+                                      <g transform="matrix(1 0 0 1 0 0)" >
+                                      <path  fill="#ECECEC" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  d="M 50 25 C 50 38.8071 38.8071 50 25 50 C 11.1929 50 0 38.8071 0 25 C 0 11.1929 11.1929 0 25 0 C 38.8071 0 50 11.1929 50 25 Z" stroke-linecap="round" />
+                                      </g>
+                                      <g transform="matrix(1 0 0 1 0 0)" >
+                                      <path stroke="rgb(0,0,0)"  style="stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  d="M 50 25 C 50 38.8071 38.8071 50 25 50 C 11.1929 50 0 38.8071 0 25 C 0 11.1929 11.1929 0 25 0 C 38.8071 0 50 11.1929 50 25 Z" stroke-linecap="round" />
+                                      </g>
+                                      <g transform="matrix(1 0 0 1 0 0)" >
+                                      <path stroke="rgb(0,0,0)" style="stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  d="M 33.3333 23.3333 L 25 31.6667 L 16.6667 23.3333" stroke-linecap="round" />
+                                      </g>
+                                      </g>
+                                    </svg>

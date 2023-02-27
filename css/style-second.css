@@ -1,0 +1,356 @@
+/*********** CATALOG ***********/
+
+.catalog__container {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 81px;
+}
+
+.tabs-item {
+  display: none;
+}
+
+.tabs-item--active {
+  display: block;
+}
+
+.catalog__title {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 0px 0 16px 0px;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 65px;
+  color: #333333;
+}
+
+.catalog__article {
+  max-width: 1080px;
+  margin: 0;
+  margin-bottom: 39px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #333333;
+  display: block;
+}
+
+.accordion {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  list-style: none;
+}
+
+.catalog__accord {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.catalog-item {
+  margin: 0;
+  list-style: none;
+}
+
+.catalog__screensaver {
+  max-width: 750px;
+  min-height: 470px;
+}
+
+.catalog__elem {
+  margin-right: 10px;
+}
+
+.catalog-item__descr {
+  min-height: 115px;
+  border-top: 1px solid #CACACA;
+}
+
+.catalog-item__descr:nth-child(2) {
+  min-height: 112px;
+}
+
+.catalog-item__box .ui-accordion-content .ui-corner-bottom .ui-helper-reset .ui-widget-content .ui-accordion-content-active {
+  overflow: visible;
+}
+
+.catalog-item__descr:last-child {
+  border-bottom: 1px solid #CACACA;
+}
+
+.catalog-item__years {
+  max-width: 209px;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  color: #333333;
+  transition: color 0.6s ease-in, background-color 0.6s ease-in;
+}
+
+.catalog-item__border:focus {
+  outline: 0;
+}
+
+.catalog-item__link {
+  min-height: 114px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+
+.catalog-item__box {
+  position: relative;
+  max-width: 668px;
+  max-height: 316px;
+  top: 27px;
+  margin-right: auto;
+  margin-bottom: 50px;
+  padding-inline-start: 0;
+  margin-inline-end: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-between;
+  list-style-type: none;
+}
+
+.ui-accordion-header-active {
+  border-top: 1px solid #9D5CD0;
+  border-bottom: 1px solid #9D5CD0;
+}
+
+.catalog-item__link:focus {
+  border: none;
+  outline: 0;
+}
+
+
+.catalog-item__years:focus {
+  border: none;
+  outline: none;
+  background-color: #9D5CD0;
+  color: #fff;
+}
+
+
+
+.catalog-item__link:focus .catalog-item__years {
+  border: none;
+  outline: none;
+  background-color: #9D5CD0;
+  color: #fff;
+}
+
+.catalog-item__link:hover .catalog-item__years {
+  outline: none;
+  background-color: transparent;
+  color: #9D5CD0;
+}
+
+.catalog-item__link:active .catalog-item__years {
+  outline: none;
+  background-color: transparent;
+  color: #7943A4;
+}
+
+.catalog-item__svg320 {
+  display: none;
+}
+
+.catalog-item__link path {
+  transition: fill 0.6s ease-in, stroke 0.6s ease-in;
+}
+
+.catalog-item__link:focus .catalog-item__svg path:nth-child(1) {
+  fill: #D1A9F0;
+}
+
+.catalog-item__link:hover .catalog-item__svg path:nth-child(1) {
+  fill: #D1A9F0;
+}
+
+.catalog--active .catalog-item__svg path:nth-child(1) {
+  fill: #D1A9F0;
+}
+
+.catalog--active .catalog-item__years {
+  color: #9D5CD0;
+}
+
+.catalog-item__link:active .catalog-item__svg path:nth-child(1) {
+  fill: #D1A9F0;
+  stroke: #9D5CD0;
+}
+
+/* AKKORDION */
+
+.ui-accordion-header-active .catalog-item__svg path {
+  transform: rotate(180deg);
+  transform-origin: 50% 50%;
+}
+
+
+.catalog__picture {
+  max-width: 750px;
+  margin-bottom: 26px;
+  animation: catani 3.5s forwards;
+}
+
+@keyframes catani {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.catalog-item__button {
+  width: 100%;
+  margin-bottom: 1px;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0;
+  line-height: 30px;
+  border: none;
+  outline: 0;
+  background: none;
+  cursor: pointer;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: left;
+  border-bottom: 1px solid transparent;
+  transition: color 0.6s ease-in, background-color 0.6s ease-in, border-bottom 0.6s ease-in;
+}
+
+.catalog-item__button:focus {
+  background-color: #9D5CD0;
+  color: #fff;
+}
+
+.catalog-item__button:hover {
+  outline: none;
+  background-color: transparent;
+  color: #9D5CD0;
+  border-bottom: 1px solid #9D5CD0;
+}
+
+.catalog-item__button:active {
+  background-color: transparent;
+  color: #7943A4;
+  text-decoration: none;
+}
+
+.catalog-item__title,
+.catalog__title1 {
+  display: block;
+  margin: 0 0 10px 0;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 33px;
+  color: #333333;
+}
+
+.catalog-item__data,
+.catalog__data1 {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-bottom: 6px;
+  margin-left: 0px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #999999;
+}
+
+.catalog-item__article,
+.catalog__article1,
+.catalog__article2 {
+  margin: 0;
+  max-width: 750px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.catalog-item__href,
+.catalog-item__href1 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #9D5CD0;
+  text-decoration: none;
+}
+
+.catalog__empty {
+  position: relative;
+  margin-bottom: 0px;
+  max-width: 600px;
+  min-height: 239px;
+  display: flex;
+}
+
+.catalog__portret {
+  position: absolute;
+  top: 36px;
+  left: 12px;
+}
+
+.catalog__ramka {
+  padding: 25px 0 25px 0;
+  margin-right: 24px;
+}
+
+.empty__message {
+  margin: 0;
+  max-width: 275px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.empty__title {
+  position: relative;
+  top: 15px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  color: #333333;
+}
+
+.empty__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.catalog-item__href1 {
+  margin: 0;
+}
+
+.catalog-item__element {
+  display: none;
+}
+
+.catalog__choice {
+  display: none;
+}
+
+.catalog-item__button--active {
+  width: 100%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.catalog-item__element--active {
+  display: block;
+}
