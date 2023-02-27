@@ -287,42 +287,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
   // картинку в Hero поменял
-  var picNumber = 1;
-  var pic = document.querySelector('.hero__background');
-  // var remClass="hero__background";
-  // varaddClass="her"
-
-  /*  function ChangePicture() {
-    if (picNumber == 1) {
-        pic.classList.remove('hero__background');
-        pic.classList.add('hero__background1');
-        picNumber = 2;
-    } else
-    if (picNumber == 2) {
-        pic.classList.remove('hero__background1');
-        pic.classList.add('hero__background2');
-        picNumber = 3;
-
-    } else
-    if (picNumber == 3) {
-        pic.classList.remove('hero__background2');
-        pic.classList.add('hero__background');
-        picNumber = 1;
-    }
-
-  }
-
-  setInterval(ChangePicture, 3000);
-  */
-  /*
-    document.querySelector('.hero__button').addEventListener('click', (e) => {
-      console.log("click")
-      document.querySelector('.hero__button').classList.add('hero__button--focact');
-      document.querySelector('.hero__button').style.backgroundColor = "yellow";
-
-    });
-
-  */
 
   // ************************************************************************************
 
